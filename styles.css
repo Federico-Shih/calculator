@@ -2,7 +2,6 @@
     background-color: black;
     width: 100%;
     height: 100%;
-    color: white;
 }
 
 #log{
@@ -10,9 +9,17 @@
     font-family: "Courier New", Courier, monospace;
     text-align: right;
     width: 100%;
-    top:14%;
-    position: relative;
+    position: absolute;
+    
 }
 
-/*
-    background-color: black;*/
+table, td, tr{
+    color:#FFFFFF;
+    border-color: white;
+    border: 1px solid;
+}
+
+table{
+    width: 100%;
+    height: 100%;
+}
